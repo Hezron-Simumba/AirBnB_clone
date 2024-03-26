@@ -253,21 +253,5 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
 > *Update the file.json*
 ```
 ## Authors
-<details>
-    <summary>Hezron Simumba</summary>
-    <ul>
-    <li><a href="https://www.github.com/Hezron-Simumba">Github</a></li>
-    <li><a href="mailto:simumbahezron@gmail.com">e-mail</a></li>
-    </ul>
-</details>
 
-## How to add Author file
-`Bash script for generating the list of authors in git repo`
-```
-#!/bin/sh
-
-git shortlog -se \
-  | perl -spe 's/^\s+\d+\s+//' \
-  | sed -e '/^CommitSyncScript.*$/d' \
-  > AUTHORS
-  ```
+Hezron Simumba | Email: [Hezron Simumba](mailto:simumbahezron@gmail.com)
